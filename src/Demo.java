@@ -14,11 +14,11 @@ public class Demo {
         System.out.println("你想要输入的数字是：" );
         int a = sc.nextInt();
         for(int i=1;i<=a;i++){
-            int j=1;
-            while (j<=i){
-                System.out.print(j+"X"+i+"="+i*j+"\t");
-                j++;
-            }
+                int j=1;
+                while (j<=i){
+                    System.out.print(j+"X"+i+"="+i*j+"\t");
+                    j++;
+                }
             System.out.println(" ");
         }
         System.out.println("this is a change in dev");
