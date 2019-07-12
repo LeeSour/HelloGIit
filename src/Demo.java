@@ -4,7 +4,7 @@ import java.util.Scanner;
  * des:this is the demo v1.0
  * time:2019-07-11
  * author:LeeSour326@163.com
- * description：这是乘法口诀表 v2.0
+ * description：这是乘法口诀表 v3.0
  */
 public class Demo {
     public static void main(String[] args) {
@@ -22,5 +22,6 @@ public class Demo {
         }
 
         System.out.println("this is a change in dev");
+        System.out.println("this is a change in master");
     }
 }
