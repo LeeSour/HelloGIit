@@ -3,10 +3,10 @@ package ThreadDemo;
 public class ThreadDemo01{
 
 
-    public static int tickets = 50;
+    public static int tickets = 10;
     public static void main(String[] args) {
-        new Thread(new ChangeThread()).run();
-        new Thread(new ChangeThread()).run();
+        new Thread(new ChangeThread()).start();
+        new Thread(new ChangeThread()).start();
 
     }
 }
